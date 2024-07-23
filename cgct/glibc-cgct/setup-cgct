@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-export CGCT_DIR="/data/data/com.termux/cgct"
+export CGCT_DIR="/data/data/com.vectras.boxvidra/cgct"
 
 _setup_cgct_error() {
 	echo "Error: ${1}"
