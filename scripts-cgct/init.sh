@@ -2,7 +2,7 @@
 
 # system definitions
 export LANG="en_US.UTF-8"
-export DIR_TERMUX="/data/data/com.termux"
+export DIR_TERMUX="/data/data/com.vectras.boxvidra"
 export TERMUX_PREFIX="${DIR_TERMUX}/files/usr"
 export GLIBC_PREFIX="${TERMUX_PREFIX}/glibc"
 export CGCT_PATH="${DIR_TERMUX}/cgct"
