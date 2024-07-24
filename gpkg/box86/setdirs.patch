@@ -69,8 +69,8 @@ index 8009c47..66d9953 100644
 +    if(FileExist("@TERMUX_PREFIX@/lib32", 0))
 +        AddPath("@TERMUX_PREFIX@/lib32", &context->box86_ld_lib, 1);
  #else
-     if(FileExist("/data/data/com.termux/files/usr/lib/i386-linux-gnu", 0))
-         AddPath("/data/data/com.termux/files/usr/lib/i386-linux-gnu", &context->box86_ld_lib, 1);
+     if(FileExist("/data/data/com.vectras.boxvidra/files/usr/lib/i386-linux-gnu", 0))
+         AddPath("/data/data/com.vectras.boxvidra/files/usr/lib/i386-linux-gnu", &context->box86_ld_lib, 1);
 @@ -1208,8 +1202,8 @@ static void load_rcfiles()
  	LoadRCFile(rcpath);
          
