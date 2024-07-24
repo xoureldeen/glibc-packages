@@ -1,15 +1,6 @@
 name: Build gpkg
 
-on:
-  push:
-    branches:
-    - main
-    paths:
-    - 'gpkg/**'
-  pull_request:
-    paths:
-    - 'gpkg/**'
-  workflow_dispatch: on
+on: workflow_dispatch
         
 permissions: {} # none
 
