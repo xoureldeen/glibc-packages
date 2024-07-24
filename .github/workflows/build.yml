@@ -9,11 +9,7 @@ on:
   pull_request:
     paths:
     - 'gpkg/**'
-  workflow_dispatch:
-    inputs:
-      packages:
-        description: "A space-separated names of packages selected for rebuilding"
-        required: true
+  workflow_dispatch: on
         
 permissions: {} # none
 
